@@ -1,5 +1,5 @@
 const URL = "https://rickandmortyapi.com/api/character/"
-const URL2 = "https://rickandmortyapi.com/api/character/?page=17"
+const URL2 = "https://rickandmortyapi.com/api/character/?page=24"
 
 class Http{
     static instance = new Http()
