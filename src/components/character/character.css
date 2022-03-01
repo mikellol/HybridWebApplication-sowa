@@ -1,0 +1,34 @@
+.Character__container{
+    margin: 20px;
+    display:inline-flex;
+    flex-direction:row;
+    align-items: left;
+    width: 350px;
+    height: 160px;
+    border: 1px solid black;
+    justify-content: space-around;
+    border-radius: 1cm;
+    background-image: url(../../images/portal.jpg);
+}
+.Character__image{
+    width: 135px;
+    height: 135px;
+    align-items: center;
+}
+.Character__data{
+    margin-left: 15px;
+}
+.Character__data h3,p,small{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    flex-direction: row;
+}
+.containeralv{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.backimage{
+    background-image: url(../../images/portal.jpg);
+}

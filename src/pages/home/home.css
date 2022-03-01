@@ -1,0 +1,13 @@
+.backcolor{
+    background-color: aquamarine;
+    border: 5px solid rgb(69, 109, 10);
+    border-style: groove;
+    background-image: url(../../images/computer.png);
+}
+.title{
+    color: green;
+    font-size-adjust: .85;
+    text-align: center;
+    text-decoration: overline;
+    text-shadow: 2px 2px blanchedalmond;
+}
