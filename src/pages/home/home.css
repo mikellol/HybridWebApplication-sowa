@@ -1,13 +1,15 @@
 .backcolor{
     background-color: aquamarine;
-    border: 5px solid rgb(69, 109, 10);
+    border: 5px solid rgb(141, 141, 146);
     border-style: groove;
-    background-image: url(../../images/computer.png);
+    background-image: url(../../images/disney-logo.jpg);
+    background-size: 100% ;
 }
 .title{
-    color: green;
+    color: rgb(44, 165, 212);
     font-size-adjust: .85;
     text-align: center;
     text-decoration: overline;
-    text-shadow: 2px 2px blanchedalmond;
+    text-shadow: 0px 0px 5px rgb(168, 163, 163), 0px 0px 5px;
+    font-family: "Lucida Handwriting";
 }

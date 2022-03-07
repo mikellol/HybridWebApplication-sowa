@@ -4,17 +4,14 @@ import Http from "../../lib/request";
 import './Detail.css'
 
 const DetailCharacter = () =>{
-    const {id} = useParams();
+    const {_id} = useParams();
     const [character,setCharacter] = useState({});
-    const [origin,setOrigin]= useState({});
-    const [location, setLocation]=useState({});
+
 
     useEffect(()=>{
         const fetchCharacter = async()=>{
-            const character = await Http.instance.get_character(id);
+            const character = await Http.instance.get_character(_id);
             setCharacter(character);
-            setOrigin(character.origin);
-            setLocation(character.location);
         }
         fetchCharacter();
     })
@@ -22,36 +19,21 @@ const DetailCharacter = () =>{
     return(
         <React.Fragment>
             <body>
-                <div className="Detail__container">
+            <div className="Detail__container">
                     <div className="Details_img">
-                        <img src={character.image} alt={character.name} />
+                        <img src={character.imageUrl} alt={character.name} />
                     </div>
                     <div className="Details__data">
                         <h1>{character.name}</h1>
-                        <div className="Data__row">
-                            <h3>Status:</h3>
-                            <p>{character.status}</p>
-                        </div>
-                        <div className="Data__row">
-                            <h3>Species:</h3>
-                            <p>{character.species}</p>
-                        </div>
-                        <div className="Data__row">
-                            <h3>Type:</h3>
-                            <p>{character.type || "NA"}</p>
-                        </div>
-                        <div className="Data__row">
-                            <h3>Gender:</h3>
-                            <p>{character.gender}</p>
-                        </div>
-                        <div className="Data__row">
-                            <h3>Origin:</h3>
-                            <p>{origin.name}</p>
-                        </div>
-                        <div className="Data__row">
-                            <h3>Location:</h3>
-                            <p>{location.name}</p>
-                        </div>
+                    <div className="Data__row">
+                            <h3>Show:</h3>
+                            <p>{character.tvShows || "NA"}</p>
+                    </div>
+                    <div className="Data__row">
+                        <h3>Film:</h3>
+                        <p>{character.films || "NA"}</p>
+                    </div>
+                       
                         
                     </div>
                 </div>

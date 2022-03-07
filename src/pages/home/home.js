@@ -6,7 +6,7 @@ import Http from "../../lib/request";
 
 class Home extends React.Component{
     state={
-        title:"Rick and Morty characters API",
+        title:"Disney Characters",
         characters:[]
     };
 

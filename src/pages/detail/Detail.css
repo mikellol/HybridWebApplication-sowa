@@ -10,7 +10,12 @@
     top: 25%;
     left: 32%;
     border-radius: 1.5cm;
-    background-image: url(../../images/portal.jpg)
+    background-image: url(../../images/D.png);
+    background-size: 100% 100%;
+    font-family: "Lucida Handwriting";
+    font-size: large;
+    text-shadow: 0px 0px 5px #fff, 0px 0px 7px;
+    
     
 }
 .Details__img{
@@ -20,10 +25,13 @@
     
 }
 .Details__data{
-    text-align: center;
+    text-align: left;
     width: 450px;
     height: 350px;
     padding-left: 10px;
+    inline-size: 700px;
+    overflow:scroll;
+    
 }
 .Data__row{
     display: ruby-base-container;
@@ -31,6 +39,8 @@
     margin-left: 8px;
     padding-left: 15px;
     text-align: justify;
+    inline-size: 100px;
+    overflow-wrap: break-word;
 }
 .h3,p{
     text-align: right;
