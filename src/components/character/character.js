@@ -12,9 +12,11 @@ const Character = (props) =>{
                 src={character.image}
                 alt={character.name}/>
             <div className="Character__data">
+           
 
 
-            <h3 className="Character__name">{props.character.name}</h3> 
+            <h3 className="Character__name">{props.character.name}</h3>
+            <h3 className="Character__name">{props.character.gender}</h3> 
 
 
             </div>
