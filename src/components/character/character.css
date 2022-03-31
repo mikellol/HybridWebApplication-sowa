@@ -10,7 +10,8 @@
     border-radius: 1cm;
     box-shadow: 10px 5px 5px rgb(17, 73, 194);
     background-size: 100% 100%;
-    font-family: 'Homer Simpson Revised', sans-serif;
+    font-family: 'Homer Simpson Revised';
+    src: url('http://fonts.cdnfonts.com/css/homer-simpson-revised');
     font-size: 120%;
     font-weight: bold;
     font-style: italic;
