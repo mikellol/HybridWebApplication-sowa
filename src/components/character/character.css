@@ -10,14 +10,17 @@
     border-radius: 1cm;
     box-shadow: 10px 5px 5px rgb(17, 73, 194);
     background-size: 100% 100%;
-    font-family: "fantasy";
-    font-size: large;
+    font-family: 'Homer Simpson Revised', sans-serif;
+    font-size: 120%;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 100%;
     text-shadow: 2px 2px 5px rgb(223, 221, 221), 0px 0px 7px; 
    
 }
 .Character__image{
-    width: 135px;
-    height: 135px;
+    width: 130px;
+    height: 130px;
     align-items: center;
 }
 .Character__data{
