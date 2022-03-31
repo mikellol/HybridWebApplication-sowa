@@ -10,7 +10,8 @@
     border-radius: 1cm;
     box-shadow: 10px 5px 5px rgb(17, 73, 194);
     background-size: 100% 100%;
-    font-family: "Lucida Handwriting";
+    font-family: 'Homer Simpson Revised';
+    src: url('http://fonts.cdnfonts.com/css/homer-simpson-revised');
     font-size: large;
     text-shadow: 0px 0px 5px rgb(223, 221, 221), 0px 0px 7px; 
  
